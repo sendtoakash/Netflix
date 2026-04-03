@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "site": "netflix-ai-powered",
+    "public": "dist",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+
